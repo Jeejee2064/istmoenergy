@@ -27,7 +27,7 @@ export const metadata = {
     siteName: "Istmo Energy",
     images: [
       {
-        url: "/img1.jpg", // Image de partage social
+        url: "/social.png", // Image de partage social
         width: 1200,
         height: 630,
       },
