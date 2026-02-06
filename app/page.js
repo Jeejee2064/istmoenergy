@@ -64,14 +64,12 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <h1 className="text-5xl md:text-7xl font-black uppercase tracking-tighter leading-none mb-6">
-              Wholesale <br />
-              <span className="text-[#0b879bfe]">Electricity</span> <br />
-              Markets
+              Trading North American <br />
+              <span className="text-[#0b879bfe]">Wholesale Electricity Markets</span> <br />
+              
             </h1>
             <div className="w-20 h-1 bg-[#064c57ff] mb-8"></div>
-            <p className="text-xl text-slate-500 max-w-md font-light leading-relaxed">
-              Istmo Energy LLC is an independent energy trading and analytics firm focused on short term North American power systems.
-            </p>
+       
           </motion.div>
           <div className="relative">
             <img src="/img1.jpg" alt="Analytics" className="w-full h-[400px] md:h-[550px] object-cover shadow-2xl rounded-sm" />
@@ -84,11 +82,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto grid md:grid-cols-12 gap-12">
           <div className="md:col-span-4">
             <p className="text-[#064c57ff] font-bold uppercase tracking-widest text-xs mb-4">Who we are</p>
-            <h2 className="text-3xl font-bold">Data-Driven <br/>Activity.</h2>
           </div>
           <div className="md:col-span-8">
+                 <p className="text-xl text-slate-500 max-w-md font-light leading-relaxed">
+              Istmo Energy LLC is an independent energy trading and analytics firm focused on short term North American power systems.
+            </p>
             <p className="text-2xl font-light text-slate-700 leading-snug">
-              Our activity is driven by <span className="font-semibold text-[#0b879bfe]">proprietary tools</span> and market expertise. We focus on short term North American wholesale electricity markets with precision.
+              Our activity is driven by <span className="font-semibold text-[#0b879bfe]">proprietary tools</span> and market expertise. 
             </p>
             <div className="grid grid-cols-2 gap-4 mt-12">
               <img src="/img2.jpg" alt="Trading" className="h-48 w-full object-cover rounded-sm grayscale" />
@@ -106,15 +106,10 @@ export default function Home() {
           </div>
           <div className="order-1 md:order-2">
             <p className="text-[#064c57ff] font-bold uppercase tracking-widest text-xs mb-4">What we do</p>
-            <h2 className="text-5xl font-black uppercase tracking-tighter mb-8">System Reliability</h2>
             <p className="text-lg text-slate-600 font-light mb-8 leading-relaxed">
-              We trade short-term power markets across North America in both physical and financial markets using internally developed data systems and trading models.
+              We trade short-term power markets across North America in both physical and financial markets using internally developed data systems and trading models. We help balance supply and demand and contribute to liquidity, price discovery, and system reliability across interconnected power systems.
             </p>
-            <div className="bg-white border-l-4 border-[#0b879bfe] p-6 shadow-sm">
-              <p className="italic text-slate-800">
-                "We help balance supply and demand and contribute to liquidity, price discovery, and system reliability across interconnected power systems."
-              </p>
-            </div>
+   
             <img src="/img5.jpg" alt="Market Flow" className="h-32 w-full object-cover mt-8 opacity-50" />
           </div>
         </div>
