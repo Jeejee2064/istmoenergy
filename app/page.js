@@ -85,7 +85,7 @@ export default function Home() {
       {/* Image */}
       <div className="md:col-span-6">
         <img 
-          src="/img2.jpg" 
+          src="/img3.jpg" 
           alt="Trading" 
           className="w-full h-[500px] object-cover rounded-sm shadow-lg" 
         />
@@ -148,7 +148,7 @@ We help balance supply and demand and
       {/* Image (reversed) */}
       <div className="md:col-span-6 md:order-2 order-1">
         <img 
-          src="/img4.jpg" 
+          src="/img1.jpg" 
           alt="System Reliability" 
           className="w-full h-[500px] object-cover rounded-sm shadow-lg" 
         />
