@@ -23,7 +23,7 @@ export const metadata = {
   },
   openGraph: {
     title: "Istmo Energy LLC",
-    description: "Analytics and Trading in Wholesale Electricity Markets.",
+    description: "Trading and Analytics in Wholesale Electricity Markets.",
     url: "https://istmoenergy.net",
     siteName: "Istmo Energy",
     images: [
