@@ -47,7 +47,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white text-slate-900 selection:bg-[#064c57ff] selection:text-white font-sans antialiased">
-      
+
       {/* NAVIGATION */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-slate-100">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
@@ -87,7 +87,7 @@ export default function Home() {
       {/* HERO */}
       <section className="pt-32 pb-16 px-6 max-w-7xl mx-auto min-h-[90vh] flex flex-col justify-center">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          
+
           <motion.div
             variants={containerVariant}
             initial="hidden"
@@ -223,10 +223,21 @@ export default function Home() {
       {/* FOOTER */}
       <footer className="py-12 px-6 border-t border-slate-50 flex flex-col md:flex-row justify-between items-center gap-6 max-w-7xl mx-auto">
         <img src="/logo.png" alt="Logo" className="h-6 opacity-40 grayscale" />
-        <p className="text-[10px] uppercase tracking-[0.6em] text-slate-300 font-bold">
-          Istmo Energy LLC © 2026
-        </p>
+
+        <div className="flex items-center gap-6">
+          <a
+            href="/privacypolicy"
+            className="text-[10px] uppercase tracking-[0.6em] text-slate-400 hover:text-[#0b879bfe] transition-colors font-bold"
+          >
+            Privacy Policy
+          </a>
+
+          <p className="text-[10px] uppercase tracking-[0.6em] text-slate-300 font-bold">
+            Istmo Energy LLC © 2026
+          </p>
+        </div>
       </footer>
+
     </div>
   );
 }
