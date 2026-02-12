@@ -131,7 +131,7 @@ export default function Home() {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
-          <motion.div variants={itemVariant} className="md:col-span-6">
+          <motion.div variants={itemVariant} className="hidden md:block md:col-span-6">
             <img src="/img3.jpg" alt="Trading" className="w-full h-[500px] object-cover rounded-sm shadow-lg" />
           </motion.div>
 
@@ -185,7 +185,7 @@ export default function Home() {
             </p>
           </motion.div>
 
-          <motion.div variants={itemVariant} className="md:col-span-6 md:order-2 order-1">
+          <motion.div variants={itemVariant} className="md:col-span-6 md:order-2 order-2">
             <img src="/img1.jpg" alt="System Reliability" className="w-full h-[500px] object-cover rounded-sm shadow-lg" />
           </motion.div>
         </motion.div>
